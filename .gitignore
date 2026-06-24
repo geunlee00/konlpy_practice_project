@@ -1,0 +1,46 @@
+# 환경 변수 / 비밀 키 (가장 중요!)
+.env
+.env.local
+*.key
+secrets.json
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.python-version
+
+# 가상환경
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 모델 가중치 / 체크포인트 (대용량 파일)
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.h5
+
+# 데이터셋 / 캐시
+datasets/
+.cache/
+
+# 실험 로그 / 추적 도구
+wandb/
+mlruns/
+runs/
+outputs/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store

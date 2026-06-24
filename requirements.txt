@@ -1,0 +1,7 @@
+konlpy
+jpype1
+wordcloud
+torch
+pandas
+pymupdf
+# pip install git+https://github.com/haven-jeon/PyKoSpacing.git 이것도 설치필요
